@@ -345,9 +345,9 @@
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.Location = new System.Drawing.Point(78, 10);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(43, 18);
+            this.label18.Size = new System.Drawing.Size(134, 18);
             this.label18.TabIndex = 0;
-            this.label18.Text = "Label";
+            this.label18.Text = "Total Cooler Count";
             // 
             // panel10
             // 

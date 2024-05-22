@@ -12,6 +12,7 @@
         <AssociationConnector Association="DbEntityProductModel.FK_Tbl_Sales_Tbl_Customer" ManuallyRouted="false" />
         <AssociationConnector Association="DbEntityProductModel.FK_Tbl_Product_Tbl_Kategori" ManuallyRouted="false" />
         <AssociationConnector Association="DbEntityProductModel.FK_Tbl_Sales_Tbl_Product" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbEntityProductModel.Tbl_Admin" Width="1.5" PointX="7.375" PointY="4.125" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -12,6 +12,8 @@ namespace EntityProject
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class DbEntityProductEntities : DbContext
     {
@@ -29,5 +31,11 @@ namespace EntityProject
         public virtual DbSet<Tbl_Kategori> Tbl_Kategori { get; set; }
         public virtual DbSet<Tbl_Product> Tbl_Product { get; set; }
         public virtual DbSet<Tbl_Sales> Tbl_Sales { get; set; }
+        public virtual DbSet<Tbl_Admin> Tbl_Admin { get; set; }
+    
+        public virtual ObjectResult<string> getTopBrand()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("getTopBrand");
+        }
     }
 }
